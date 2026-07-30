@@ -1,9 +1,3 @@
-html,
-body {
-  text-align: left;
-  text-decoration: none;
-  color: #222;
-}
 html {
   background: #e4e4e4;
 }
@@ -20,6 +14,12 @@ body {
   -icab-box-shadow: 0 0 5px 5px #bbb;
   -o-box-shadow: 0 0 5px 5px #bbb;
   box-shadow: 0 0 5px 5px #bbb;
+}
+html,
+body {
+  text-align: left;
+  text-decoration: none;
+  color: #222;
 }
 div {
   padding: 0;
@@ -41,17 +41,6 @@ div {
   display: table;
   width: 100%;
 }
-#gnu-banner {
-  line-height: 1em;
-  padding: 0.6em 0;
-}
-#gnu-banner,
-#switches {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  padding: 0.6em;
-}
 #gnu-banner img {
   vertical-align: middle;
   height: 2.7em;
@@ -63,10 +52,19 @@ div {
   font-weight: normal;
   font-size: 2em;
 }
+
+#gnu-banner,
+#switches {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+padding: 0.6em;
+}
 #gnu-banner .hide,
 #fsf-support {
   display: none;
 }
+
 .switch {
   display: inline-block;
   vertical-align: middle;
